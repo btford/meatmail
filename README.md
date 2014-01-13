@@ -1,6 +1,8 @@
 # meatmail
 meatspace in ur gmail
 
+![Screenshot](https://raw.github.com/btford/meatmail/master/screenshot.png)
+
 ## Installing
 There are two ways to install.
 It's easier to do so through the Chrome Store.
