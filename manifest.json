@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "meatmail",
+  "description": "Meatspace in your gmail",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["mail.js"]
+    },
+    {
+      "matches": ["https://chat.meatspac.es/"],
+      "js": ["meat.js"],
+      "css": ["do-you-even-know-who-i-am.css"],
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "https://mail.google.com/",
+    "https://chat.meatspac.es/"
+  ]
+}
